@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UdemyExercises2</string>
+    <string name="qual_valor_reais">Qual o valor em reais?</string>
+    <string name="valor_dolar">Valor em dolar:</string>
+    <string name="valor_euro">Valor em euro:</string>
+    <string name="calculate">Calculate</string>
+</resources>

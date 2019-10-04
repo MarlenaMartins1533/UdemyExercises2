@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/qual_valor_reaisTXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="@string/qual_valor_reais"/>
+
+    <EditText
+        android:id="@+id/valor_recebidoEDT"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="numberSigned"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/valor_dolar"/>
+
+    <TextView
+        android:id="@+id/valor_dolarTXT"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valor_dolar"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/valor_euro"/>
+
+    <TextView
+        android:id="@+id/valor_euroTXT"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valor_euro"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"/>
+
+
+
+    <Button
+        android:id="@+id/calculateBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/calculate"
+        android:textColor="@color/colorLight"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>
